@@ -55,6 +55,7 @@ ALL_MODELS = [
   Model('QL-820NWB',(150, 11811), two_color=True),
   Model('QL-1050',  (295, 35433), number_bytes_per_row=162, additional_offset_r=44),
   Model('QL-1060N', (295, 35433), number_bytes_per_row=162, additional_offset_r=44),
+  Model('QL-1100',  (295, 35433), number_bytes_per_row=162, additional_offset_r=44),
 ]
 
 class ModelsManager(ElementsManager):
